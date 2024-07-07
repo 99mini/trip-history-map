@@ -1,0 +1,9 @@
+{
+  "name": "trip-history-map",
+  "scripts": {
+    "backend": "cd backend && npm run start:dev",
+    "frontend": "cd frontend && npm run dev",
+    "ngrok": "cd frontend && npm run ngrok",
+    "format": "cd backend && npm run format && cd ../frontend && npm run lint"
+  }
+}
